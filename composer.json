@@ -1,0 +1,15 @@
+{
+    "name": "hkianim/php-validator",
+    "description": "A reusable PHP validation library with Persian localization and custom validation rules.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/validation": "^8.83.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hkianim\\PhpValidator\\": "src/"
+        }
+    }
+}
